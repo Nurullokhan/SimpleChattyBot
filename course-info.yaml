@@ -1,0 +1,12 @@
+type: hyperskill
+title: Simple Chatty Bot
+language: English
+summary: <p>Here, at the beginning of your programmer&rsquo;s path, creating a simple
+  console chat bot will do wonders to guide you through the basics of coding. During
+  this journey you will also play some word and number games that you are going to
+  implement all on your own. Pack up and let&rsquo;s hit the road, my friend!</p><br/><br/>Learn
+  more at <a href="https://hyperskill.org/projects/126?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/126</a>
+programming_language: Kotlin
+content:
+- Simple Chatty Bot
+mode: Study

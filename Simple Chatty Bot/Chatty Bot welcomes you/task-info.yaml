@@ -1,0 +1,62 @@
+type: edu
+files:
+- name: src/bot/SimpleBot.kt
+  visible: true
+  text: |
+    package bot
+
+    fun main() {
+        // write your code here
+    }
+  learner_created: false
+- name: test/ChattyBotTest.java
+  visible: false
+  text: |
+    import org.hyperskill.hstest.stage.StageTest;
+    import org.hyperskill.hstest.testcase.CheckResult;
+    import org.hyperskill.hstest.testcase.TestCase;
+
+    import java.util.Collections;
+    import java.util.List;
+
+
+    public class ChattyBotTest extends StageTest<Object> {
+
+        @Override
+        public List<TestCase<Object>> generate() {
+            return Collections.singletonList(
+                new TestCase<>()
+            );
+        }
+
+        @Override
+        public CheckResult check(String reply, Object clue) {
+
+            String[] lines = reply.trim().split("\n");
+
+            if (lines.length != 2) {
+                return CheckResult.wrong(
+                    "You should output exactly 2 lines!\n" +
+                    "Lines found: " + lines.length
+                );
+            }
+
+            String secondLine = lines[1];
+
+            if (!secondLine.matches(".*\\d.*")) {
+                return CheckResult.wrong(
+                    "The second line should contain a year!\n" +
+                    "Your second line: \"" + secondLine + "\""
+                );
+            }
+
+            return CheckResult.correct();
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/projects/126/stages/668/implement#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 12 Oct 2022 20:12:29 UTC
+record: 1

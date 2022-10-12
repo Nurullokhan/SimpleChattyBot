@@ -1,0 +1,98 @@
+hyperskill_project:
+  id: 126
+  ide_files: https://stepik.org/media/attachments/lesson/405270/additional_files.json
+  is_template_based: true
+  use_ide: true
+update_date: Thu, 01 Jan 1970 00:00:00 UTC
+stages:
+- id: 668
+  step: 10770
+  is_completed: true
+- id: 669
+  step: 10771
+  is_completed: true
+- id: 670
+  step: 10772
+  is_completed: true
+- id: 671
+  step: 10773
+  is_completed: true
+- id: 672
+  step: 10774
+  is_completed: true
+topics:
+  0:
+  - title: Introduction to Kotlin
+    theory_id: 4350
+  - title: Basic literals
+    theory_id: 4351
+  - title: Overview of the basic program
+    theory_id: 4362
+  - title: Standard output
+    theory_id: 4425
+  1:
+  - title: Values and variables
+    theory_id: 4371
+  - title: Val variables
+    theory_id: 17408
+  - title: Data types
+    theory_id: 4388
+  - title: Comments
+    theory_id: 4406
+  - title: Coding style conventions
+    theory_id: 4419
+  - title: Naming variables
+    theory_id: 4389
+  - title: Invoking functions
+    theory_id: 4575
+  - title: Standard input
+    theory_id: 4445
+  2:
+  - title: Binary numbers
+    theory_id: 5544
+  - title: Hexadecimal numbers
+    theory_id: 8788
+  - title: Units of information
+    theory_id: 6865
+  - title: The classification of basic types
+    theory_id: 4455
+  - title: Type conversion
+    theory_id: 4672
+  - title: Reading data with a readln
+    theory_id: 11224
+  - title: String basics
+    theory_id: 12553
+  - title: String templates
+    theory_id: 4547
+  - title: Boolean and logical operations
+    theory_id: 4515
+  - title: Arithmetic operations
+    theory_id: 4472
+  - title: Type of the numeric expression
+    theory_id: 9506
+  - title: Increment and decrement
+    theory_id: 10776
+  - title: Integers in action
+    theory_id: 4488
+  - title: Relational operators
+    theory_id: 4525
+  - title: Unicode
+    theory_id: 7899
+  - title: Characters
+    theory_id: 4680
+  - title: Working with strings
+    theory_id: 12561
+  3:
+  - title: If expression
+    theory_id: 4625
+  - title: Repeating blocks
+    theory_id: 4643
+  - title: Ranges
+    theory_id: 4633
+  - title: For loop and ranges
+    theory_id: 4652
+  4:
+  - title: Declaring functions
+    theory_id: 4580
+  - title: While loops
+    theory_id: 4659
